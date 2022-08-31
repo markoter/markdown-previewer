@@ -8,9 +8,11 @@ class App extends React.Component {
         return (
             <div id="app-container">
                 <HeaderBox />
-                <p>this is just app</p>
-                <EditorBox />
-                <PreviewBox />
+                <div id="content">
+                    <EditorBox />
+                    <PreviewBox />
+                </div>
+
             </div>
 
         )

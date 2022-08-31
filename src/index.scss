@@ -7,8 +7,19 @@
 }
 body {
     font-family: 'IBM Plex Mono', monospace;
+    background-color: var(--color-back);
 }
-#app-container {
+#header {
+    text-align: center;
+    color: var(--color-secondary);
+    border: 2px solid var(--color-secondary-alt);
+}
+#content {
     display: flex;
     flex-direction: row;
+}
+textarea {
+    border: 2px solid var(--color-main);
+    margin: 2px;
+    width: 40vw;
 }
