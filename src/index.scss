@@ -5,3 +5,10 @@
     --color-secondary-alt: #35648C;
     --color-back: #f2f2f2;
 }
+body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+#app-container {
+    display: flex;
+    flex-direction: row;
+}

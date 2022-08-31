@@ -4,4 +4,13 @@
   --color-main-alt: #D93D59;
   --color-secondary-alt: #35648C;
   --color-back: #f2f2f2;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+#app-container {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=index.css.map */
