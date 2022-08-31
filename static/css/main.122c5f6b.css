@@ -1,0 +1,2 @@
+:root{--color-main:#f23d4c;--color-secondary:#023e73;--color-main-alt:#d93d59;--color-secondary-alt:#35648c;--color-back:#f2f2f2}body{background-color:#f2f2f2;background-color:var(--color-back);font-family:IBM Plex Mono,monospace}#header{border:2px solid #35648c;border:2px solid var(--color-secondary-alt);color:#023e73;color:var(--color-secondary);text-align:center}#content{display:flex;flex-direction:row}textarea{border:2px solid #f23d4c;border:2px solid var(--color-main);margin:2px;width:40vw}
+/*# sourceMappingURL=main.122c5f6b.css.map*/
