@@ -9,6 +9,7 @@
 body {
   font-family: "IBM Plex Mono", monospace;
   background-color: var(--color-back);
+  margin: 0;
 }
 
 #header {
@@ -20,10 +21,16 @@ body {
 #content {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 2px dotted black;
 }
-
-textarea {
+#content .textBox {
+  max-width: 500px;
+  border: 2px dotted darkblue;
+  padding: 10px;
+}
+#content .textBox textarea {
   border: 2px solid var(--color-main);
-  margin: 2px;
-  width: 40vw;
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */
