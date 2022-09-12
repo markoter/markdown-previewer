@@ -1,6 +1,6 @@
 import React from "react";
 
-const EditorBox = () => {
+const EditorBox = (props) => {
     return (
         <div id="editorBox" className="textBox">
             <label for="editor">Editor</label>

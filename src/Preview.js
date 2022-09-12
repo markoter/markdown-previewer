@@ -1,6 +1,6 @@
 import React from "react";
 
-const PreviewBox = () => {
+const PreviewBox = (props) => {
     return (
         <div id="previewBox" className="textBox">
             <label for="preview">Preview</label>
