@@ -15,9 +15,12 @@ body {
 }
 
 #header {
+    font-size: 1.5rem;
     text-align: center;
-    color: var(--color-secondary);
+    color: var(--color-back);
+    background-color: var(--color-secondary);
     border: 2px solid var(--color-secondary-alt);
+    margin-bottom: 20px;
 }
 
 #content {
