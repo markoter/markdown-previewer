@@ -2,7 +2,7 @@ import React from "react";
 
 const EditorBox = (props) => {
     const { textContent } = props
-    const handleTextChange = props
+    const {handleTextChange} = props
     return (
         <div id="editorBox" className="textBox">
             <label for="editor">Editor</label>

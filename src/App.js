@@ -4,8 +4,12 @@ import HeaderBox from "./Header";
 import PreviewBox from "./Preview";
 
 class App extends React.Component {
-    state = {
-        textContent: ""
+    constructor(props) {
+        super(props)
+        this.state = {
+            textContent: "starting text"
+        }
+        this.handleTextChange = this.handleTextChange.bind(this)
     }
 
     handleTextChange = event => {
