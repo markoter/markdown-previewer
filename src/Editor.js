@@ -11,7 +11,7 @@ const EditorBox = (props) => {
                 id="editor"
                 name="editor"
                 className="textarea"
-                rows={4}
+                rows={30}
                 cols="50" 
                 value={textContent}
                 onChange={handleTextChange} />

@@ -14,12 +14,15 @@ body {
 }
 
 #header {
-  font-size: 1.5rem;
+  font-size: 3rem;
   text-align: center;
-  color: var(--color-back);
+  color: white;
   background-color: var(--color-secondary);
-  border: 2px solid var(--color-secondary-alt);
   margin-bottom: 20px;
+  padding: 5px;
+}
+#header h1 {
+  margin: 0;
 }
 
 #content {
@@ -35,9 +38,14 @@ body {
 #content .textBox div {
   padding: 0;
 }
+#content .textBox label {
+  color: var(--color-main-alt);
+  font-size: 2em;
+}
 #content .textBox .textarea {
   background-color: var(--color-back);
-  border: 2px solid var(--color-main);
+  border: 2px solid white;
   width: 100%;
-  height: 400px;
+  height: fit-content;
+  min-height: 600px;
 }/*# sourceMappingURL=index.css.map */
