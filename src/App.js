@@ -7,7 +7,7 @@ class App extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            textContent: "starting text"
+            textContent: ""
         }
         this.handleTextChange = this.handleTextChange.bind(this)
     }

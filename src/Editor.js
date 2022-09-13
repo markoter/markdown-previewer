@@ -10,6 +10,7 @@ const EditorBox = (props) => {
             <textarea
                 id="editor"
                 name="editor"
+                className="textarea"
                 rows={4}
                 cols="50" 
                 value={textContent}

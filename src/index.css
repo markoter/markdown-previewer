@@ -32,7 +32,11 @@ body {
   width: 600px;
   height: auto;
 }
-#content .textBox textarea {
+#content .textBox div {
+  padding: 0;
+}
+#content .textBox .textarea {
+  background-color: var(--color-back);
   border: 2px solid var(--color-main);
   width: 100%;
   height: 400px;
