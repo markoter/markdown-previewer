@@ -5,20 +5,21 @@ import PreviewBox from "./Preview";
 
 class App extends React.Component {
     state = {
-        text: ""
+        textContent: ""
     }
 
     handleTextChange = event => {
+        this.setState({ textContent: event.target.value})
         
     }
     render() {
-        const { text } = this.state
+        const { textContent } = this.state
         return (
             <div id="app-container">
                 <HeaderBox />
                 <div id="content">
-                    <EditorBox />
-                    <PreviewBox text={text} writeText={this.writeText} />
+                    <EditorBox textContent={textContent} handleTextChange={this.handleTextChange}/>
+                    <PreviewBox textContent={textContent}/>
                 </div>
 
             </div>
