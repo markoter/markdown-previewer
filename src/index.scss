@@ -15,7 +15,7 @@ body {
 }
 
 #header {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     color: white;
     background-color: var(--color-secondary);
@@ -31,12 +31,10 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    //border: 2px dotted black;
 
     .textBox {
         width: 600px;
         height: auto;
-        //border: 2px dotted darkblue;
         div {
             padding: 0;
         }

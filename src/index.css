@@ -14,7 +14,7 @@ body {
 }
 
 #header {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   color: white;
   background-color: var(--color-secondary);
